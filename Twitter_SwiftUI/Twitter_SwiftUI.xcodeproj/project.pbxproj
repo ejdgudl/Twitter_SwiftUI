@@ -12,6 +12,7 @@
 		D34BA463287DD7E200463E60 /* MessageInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34BA462287DD7E200463E60 /* MessageInputView.swift */; };
 		D34BA465287DD87800463E60 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34BA464287DD87800463E60 /* ChatView.swift */; };
 		D34BA467287DDA4B00463E60 /* ChatBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34BA466287DDA4B00463E60 /* ChatBubble.swift */; };
+		D3915EAF287F24E300F46839 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3915EAE287F24E300F46839 /* Message.swift */; };
 		D3C2E062287AF4BD00E4355B /* Twitter_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C2E061287AF4BD00E4355B /* Twitter_SwiftUIApp.swift */; };
 		D3C2E064287AF4BD00E4355B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C2E063287AF4BD00E4355B /* ContentView.swift */; };
 		D3C2E066287AF4BF00E4355B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3C2E065287AF4BF00E4355B /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 		D34BA462287DD7E200463E60 /* MessageInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageInputView.swift; sourceTree = "<group>"; };
 		D34BA464287DD87800463E60 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		D34BA466287DDA4B00463E60 /* ChatBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubble.swift; sourceTree = "<group>"; };
+		D3915EAE287F24E300F46839 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		D3C2E05E287AF4BD00E4355B /* Twitter_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitter_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3C2E061287AF4BD00E4355B /* Twitter_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twitter_SwiftUIApp.swift; sourceTree = "<group>"; };
 		D3C2E063287AF4BD00E4355B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 		D3C2E06F287AFDB500E4355B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D3915EAE287F24E300F46839 /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 				D3C2E062287AF4BD00E4355B /* Twitter_SwiftUIApp.swift in Sources */,
 				D34BA467287DDA4B00463E60 /* ChatBubble.swift in Sources */,
 				D3C2E077287B035000E4355B /* TweetCell.swift in Sources */,
+				D3915EAF287F24E300F46839 /* Message.swift in Sources */,
 				D3C2E07D287B10A700E4355B /* UsersCell.swift in Sources */,
 				D3C2E07B287B0D7600E4355B /* SearchBar.swift in Sources */,
 				D34BA461287DD21A00463E60 /* ConversationCell.swift in Sources */,
@@ -339,6 +343,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Twitter_SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = RA99PDU87Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -367,6 +372,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Twitter_SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = RA99PDU87Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
