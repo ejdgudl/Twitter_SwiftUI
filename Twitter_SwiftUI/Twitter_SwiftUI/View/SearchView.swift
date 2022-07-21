@@ -15,10 +15,11 @@ struct SearchView: View {
                 .padding()
             VStack(alignment: .leading) {
                 ForEach(0..<19) { _ in
-                    HStack {
-                        Spacer()
-                    }
-                    UsersCell()
+                    HStack { Spacer() }
+                    NavigationLink(
+                        destination: UserProfileView()) {
+                            UsersCell()
+                        }
                 }
             }
             .padding(.leading)
