@@ -1,16 +1,15 @@
 //
-//  CustomTextField.swift
+//  CustomSecureField.swift
 //  Twitter_SwiftUI
 //
-//  Created by 김동현 on 2022/07/26.
+//  Created by 김동현 on 2022/08/01.
 //
 
 import SwiftUI
 
-struct CustomTextField: View {
+struct CustomSecureField: View {
     @Binding var text: String
     let placeHolder: Text
-    let imageName: String
     
     var body: some View {
         ZStack(alignment: .leading) {
@@ -21,11 +20,11 @@ struct CustomTextField: View {
             }
             
             HStack(spacing: 16) {
-                Image(systemName: imageName)
+                Image(systemName: "lock")
                     .resizable()
                     .scaledToFit()
                     .frame(width: 20, height: 20)
-                TextField("", text: $text)
+                SecureField("", text: $text)
             }
         }
     }
